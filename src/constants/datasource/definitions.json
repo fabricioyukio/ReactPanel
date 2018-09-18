@@ -1,0 +1,155 @@
+{
+  "user_type": {
+    "STUDENT_1": "aluno",
+    "STUDENT_2": "aluno",
+    "STUDENT_3": "aluno",
+    "GUARDIAN": "responsavel",
+    "PROFESSOR_1": "professor",
+    "PROFESSOR_2": "professor",
+    "SCHOOL": "escola",
+    "AUTHORITY": "escola",
+    "BACKOFFICE": "backoffice",
+    "ADMIN": "backoffice"
+  },
+  "user_type_labels": {
+    "STUDENT_1": "Aluno em educação infantil",
+    "STUDENT_2": "Aluno do ensino fundamental (anos iniciais)",
+    "STUDENT_3": "Aluno do ensino fundamental (anos finais)",
+    "GUARDIAN": "Responsável",
+    "PROFESSOR_1": "Professor de educação infantil",
+    "PROFESSOR_2": "Professor de ensino fundamental",
+    "SCHOOL": "Escola",
+    "AUTHORITY": "Coordenador pedagógico",
+    "BACKOFFICE": "Atendimento",
+    "ADMIN": "Administrador"
+  },
+  "activity_aspect_names": {
+    "LANGUAGE": "Linguagem",
+    "READING_AUTONOMOUS": "Leitura Autônoma",
+    "READING_SHARED": "Leitura Compartilhada",
+    "LISTENING_AUTONOMOUS": "Escuta Autônoma",
+    "LISTENING_SHARED": "Escuta Compartilhada"
+  },
+  "activity_evaluation_aspect": {
+    "STUDENT_1": [
+      "LANGUAGE"
+    ],
+    "STUDENT_2": [
+      "READING_AUTONOMOUS",
+      "READING_SHARED",
+      "LISTENING_AUTONOMOUS",
+      "LISTENING_SHARED"
+    ],
+    "STUDENT_3": [
+      "READING_AUTONOMOUS",
+      "READING_SHARED",
+      "LISTENING_AUTONOMOUS",
+      "LISTENING_SHARED"
+    ]
+  },
+  "activity_evaluation_criteria": {
+    "STUDENT_1": [
+      "Escutar",
+      "Falar",
+      "Pensar",
+      "Expressar",
+      "Imaginar",
+      "Criar"
+    ],
+    "STUDENT_2": [
+      "Escutar",
+      "Falar",
+      "Compreender",
+      "Interpretar",
+      "Inferir",
+      "Expressar",
+      "Imaginar",
+      "Criar"
+    ],
+    "STUDENT_3": [
+      "Interessar-se",
+      "Praticar",
+      "Escutar",
+      "Falar",
+      "Compreender",
+      "Interpretar",
+      "Inferir",
+      "Expressar",
+      "Intertextualizar",
+      "Reconstruir Sentidos",
+      "Analisar",
+      "Criticar"
+    ]
+  },
+  "activity_evaluation_criteria_THRESOLD": {
+    "STUDENT_1": {
+      "MIN": 0,
+      "MED": 3,
+      "MAX": 4
+    },
+    "STUDENT_2": {
+      "MIN": 0,
+      "MED": 3,
+      "MAX": 4
+    },
+    "STUDENT_3": {
+      "MIN": 0,
+      "MED": 3,
+      "MAX": 4
+    }
+  },
+  "activity_evaluation_criteria_levels": {
+    "STUDENT_1": {
+      "MIN": "OUVINTE",
+      "MED": "PRÉ-LEITOR",
+      "MAX": "LEITOR INICIANTE"
+    },
+    "STUDENT_2": {
+      "MIN": "LEITOR INICIANTE",
+      "MED": "LEITOR EM PROCESSO",
+      "MAX": "LEITOR FLUENTE"
+    },
+    "STUDENT_3": {
+      "MIN": "LEITOR EM PROCESSO",
+      "MED": "LEITOR FLUENTE",
+      "MAX": "LEITOR CRÍTICO"
+    }
+  },
+  "student_types_for_classes": {
+    "STUDENT_1": "Aluno em educação infantil",
+    "STUDENT_2": "Aluno do ensino fundamental (anos iniciais)",
+    "STUDENT_3": "Aluno do ensino fundamental (anos finais)"
+  },
+  "validationtoken_types": {
+    "PROFESSOR_REGISTRATION": "Registro de Professor",
+    "REACTIVATION": "Reativação de usuário",
+    "PASSWORD": "Usuário deve trocar senha",
+    "VALIDATE_ACTION": "Validação genérica",
+    "ADMINISTRATIVE_ACT": "Ato administrativo"
+  },
+  "status": {
+    "Activity": {
+      "CREATED": "Disponível",
+      "CLOSED": "Fechada para participações"
+    },
+    "Participation": {
+      "CREATED": "Disponível",
+      "CENSORED": "Invalidada pelo professor"
+    },
+    "User": {
+      "CREATED": "Criado, esperando validação",
+      "ACTIVE": "Ativo",
+      "INACTIVE": "Inativo",
+      "SUSPENDED": "Suspenso"
+    },
+    "UserSession": {
+      "ACTIVE": "Ativo",
+      "INACTIVE": "Inativo"
+    },
+    "Token": {
+      "CREATED": "Criado, esperando validação",
+      "USED": "Usado",
+      "INACTIVE": "Inativo"
+    }
+  }
+}

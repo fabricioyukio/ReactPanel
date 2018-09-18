@@ -1,0 +1,10 @@
+.NavLinks {
+  a {
+    text-decoration: none;
+    font-size: 15px;
+    display: block;
+  }
+  .selected {
+    background: rgba(0,0,0,0.5);
+  }
+}

@@ -1,0 +1,19 @@
+.login-page-container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: $G300 url("../img/fundo-final-1.png") no-repeat bottom;
+  background-size: cover;
+
+  .login-page {
+    border-radius: 5px;
+    padding: 20px 30px;
+    max-width: 480px;
+    background: $Y75;
+    img {
+      max-width: 100%;
+    }
+  }
+}

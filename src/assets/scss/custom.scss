@@ -1,0 +1,78 @@
+@import "./colors/colors";
+@import "./modules/vars";
+@import "./modules/login";
+@import "./modules/pages";
+@import "./modules/errorpages";
+@import "./modules/app";
+
+body{
+  background: #efeff2;
+  font-size: $font-size;
+  font-family: $type-common;
+  font-weight: $type-common-thin-weight;
+}
+
+#app-root{
+  background: #efeff2;
+  font-size: $font-size;
+  font-family: $type-common;
+  font-weight: $type-common-thin-weight;
+  text-align: left;
+  strong {
+    font-weight: $type-common-medium-weight;
+  }
+  .in-dark {
+    font-weight: $type-common-medium-weight;
+    strong { font-weight: $type-common-bold-weight }
+  }
+}
+
+h1,.h1,
+h2,.h2,
+h3,.h3,
+h4,.h4,
+h5,.h5, label,
+h6,.h6, .title, button {
+  font-weight: $type-title-medium-weight !important;
+  font-family: $type-title ;
+  //letter-spacing: 0.1em;
+  //word-spacing: 0.4em;
+}
+h1,.h1 { font-size: ($font-size*1.8); line-height: ($font-size*1.3*1.8); display: block; color: $T300; }
+h2,.h2 { font-size: ($font-size*1.5); line-height: ($font-size*1.3*1.5); display: block; color: $B300; }
+h3,.h3 { font-size: ($font-size*1.3); line-height: ($font-size*1.3*1.3); display: block; color: $T400; }
+h4,.h4 { font-size: ($font-size*1.2); line-height: ($font-size*1.3*1.2); display: block; color: $B400; }
+h5,.h5 { font-size: ($font-size*1.1); line-height: ($font-size*1.3*1.1); display: block; color: $T500; }
+h6,.h6 { font-size: ($font-size);     line-height: ($font-size*1.3);     display: block; color: $B500; }
+
+
+.box-shadow {
+  box-shadow: 0 4px 8px 4px rgba(0,0,0,0.5);
+  .raised {
+
+  }
+}
+label {
+  color: inherit !important;
+}
+input, textarea, select {
+  font-family: "Roboto Mono", Consolas, "Liberation Mono", Courier, monospace !important;
+  font-weight: 400 !important;
+}
+label {
+  font-family: $type-title;
+  font-weight: $type-title-medium-weight;
+}
+.padding {
+  padding: 25px;
+}
+.padding-large {
+  padding: 45px;
+}
+.padding-small {
+  padding: 15px;
+}
+
+
+@import "./colors/themes";
+@import "./colors/backgoundcolors";

@@ -1,0 +1,28 @@
+.error-page-container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #ffffff;
+
+  .errot-page {
+    border-radius: 5px;
+    padding: 20px 30px;
+    max-width: 480px;
+    img {
+      max-width: 100%;
+    }
+    h1,.h1,
+    h2,.h2,
+    h3,.h3,
+    h4,.h4,
+    h5,.h5, label,
+    h6,.h6, .title, button {
+      font-weight: 400 !important;
+      font-family: Rubik, Helvetica, Roboto, Arial, sans-serif ;
+      letter-spacing: 0.1em;
+      word-spacing: 0.4em;
+    }
+  }
+}

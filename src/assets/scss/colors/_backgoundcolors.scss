@@ -1,0 +1,137 @@
+// Reds
+.bg-R50 { background-color:#FFEBE6; }
+.bg-R75 { background-color:#FFBDAD; }
+.bg-R100 { background-color:#FF8F73; }
+.bg-R200 { background-color:#FF7452; }
+.bg-R300 { background-color:#FF5630; }
+.bg-R400 { background-color:#DE350B; }
+.bg-R500 { background-color:#BF2600; }
+
+// Yellows
+.bg-Y50 { background-color:#FFFAE6; }
+.bg-Y75 { background-color:#FFF0B3; }
+.bg-Y100 { background-color:#FFE380; }
+.bg-Y200 { background-color:#FFC400; }
+.bg-Y300 { background-color:#FFAB00; }
+.bg-Y400 { background-color:#FF991F; }
+.bg-Y500 { background-color:#FF8B00; }
+
+// Greens
+.bg-G50 { background-color:#E3FCEF; }
+.bg-G75 { background-color:#ABF5D1; }
+.bg-G100 { background-color:#79F2C0; }
+.bg-G200 { background-color:#57D9A3; }
+.bg-G300 { background-color:#36B37E; }
+.bg-G400 { background-color:#00875A; }
+.bg-G500 { background-color:#006644; }
+
+// Blues
+.bg-B50 { background-color:#DEEBFF; }
+.bg-B75 { background-color:#B3D4FF; }
+.bg-B100 { background-color:#4C9AFF; }
+.bg-B200 { background-color:#2684FF; }
+.bg-B300 { background-color:#0065FF; }
+.bg-B400 { background-color:#0052CC; }
+.bg-B500 { background-color:#0747A6; }
+
+// Purples
+.bg-P50 { background-color:#EAE6FF; }
+.bg-P75 { background-color:#C0B6F2; }
+.bg-P100 { background-color:#998DD9; }
+.bg-P200 { background-color:#8777D9; }
+.bg-P300 { background-color:#6554C0; }
+.bg-P400 { background-color:#5243AA; }
+.bg-P500 { background-color:#403294; }
+
+// Teals
+.bg-T50 { background-color:#E6FCFF; }
+.bg-T75 { background-color:#B3F5FF; }
+.bg-T100 { background-color:#79E2F2; }
+.bg-T200 { background-color:#00C7E6; }
+.bg-T300 { background-color:#00B8D9; }
+.bg-T400 { background-color:#00A3BF; }
+.bg-T500 { background-color:#008DA6; }
+
+// Neutrals
+.bg-N0 { background-color:#FFFFFF; }
+.bg-N10 { background-color:#FAFBFC; }
+.bg-N20 { background-color:#F4F5F7; }
+.bg-N30 { background-color:#EBECF0; }
+.bg-N40 { background-color:#DFE1E6; }
+.bg-N50 { background-color:#C1C7D0; }
+.bg-N60 { background-color:#B3BAC5; }
+.bg-N70 { background-color:#A5ADBA; }
+.bg-N80 { background-color:#97A0AF; }
+.bg-N90 { background-color:#8993A4; }
+.bg-N100 { background-color:#7A869A; }
+.bg-N200 { background-color:#6B778C; }
+.bg-N300 { background-color:#5E6C84; }
+.bg-N400 { background-color:#505F79; }
+.bg-N500 { background-color:#42526E; }
+.bg-N600 { background-color:#344563; }
+.bg-N700 { background-color:#253858; }
+.bg-N800 { background-color:#172B4D; }
+
+// ATTENTION: update the tints if you update this
+.bg-N900 { background-color:#091E42; }
+
+// Each tint is made of N900 and an alpha channel
+.bg-N10A { background-color:rgba(9, 30, 66, 0.02); }
+.bg-N20A { background-color:rgba(9, 30, 66, 0.04); }
+.bg-N30A { background-color:rgba(9, 30, 66, 0.08); }
+.bg-N40A { background-color:rgba(9, 30, 66, 0.13); }
+.bg-N50A { background-color:rgba(9, 30, 66, 0.25); }
+.bg-N60A { background-color:rgba(9, 30, 66, 0.31); }
+.bg-N70A { background-color:rgba(9, 30, 66, 0.36); }
+.bg-N80A { background-color:rgba(9, 30, 66, 0.42); }
+.bg-N90A { background-color:rgba(9, 30, 66, 0.48); }
+.bg-N100A { background-color:rgba(9, 30, 66, 0.54); }
+.bg-N200A { background-color:rgba(9, 30, 66, 0.60); }
+.bg-N300A { background-color:rgba(9, 30, 66, 0.66); }
+.bg-N400A { background-color:rgba(9, 30, 66, 0.71); }
+.bg-N500A { background-color:rgba(9, 30, 66, 0.77); }
+.bg-N600A { background-color:rgba(9, 30, 66, 0.82); }
+.bg-N700A { background-color:rgba(9, 30, 66, 0.89); }
+.bg-N800A { background-color:rgba(9, 30, 66, 0.95); }
+
+// Dark Mode Neutrals
+.bg-DN900 { background-color:#E6EDFA; }
+.bg-DN800 { background-color:#DCE5F5; }
+.bg-DN700 { background-color:#CED9EB; }
+.bg-DN600 { background-color:#B8C7E0; }
+.bg-DN500 { background-color:#ABBBD6; }
+.bg-DN400 { background-color:#9FB0CC; }
+.bg-DN300 { background-color:#8C9CB8; }
+.bg-DN200 { background-color:#7988A3; }
+.bg-DN100 { background-color:#67758F; }
+.bg-DN90 { background-color:#56637A; }
+.bg-DN80 { background-color:#455166; }
+.bg-DN70 { background-color:#3B475C; }
+.bg-DN60 { background-color:#313D52; }
+.bg-DN50 { background-color:#283447; }
+.bg-DN40 { background-color:#202B3D; }
+.bg-DN30 { background-color:#1B2638; }
+.bg-DN20 { background-color:#121A29; }
+.bg-DN10 { background-color:#0E1624; }
+
+// ATTENTION: update the tints if you update this
+.bg-DN0 { background-color:#0D1424; }
+
+// Each dark tint is made of DN0 and an alpha channel
+.bg-DN800A { background-color:rgba(13, 20, 36, 0.06); }
+.bg-DN700A { background-color:rgba(13, 20, 36, 0.14); }
+.bg-DN600A { background-color:rgba(13, 20, 36, 0.18); }
+.bg-DN500A { background-color:rgba(13, 20, 36, 0.29); }
+.bg-DN400A { background-color:rgba(13, 20, 36, 0.36); }
+.bg-DN300A { background-color:rgba(13, 20, 36, 0.40); }
+.bg-DN200A { background-color:rgba(13, 20, 36, 0.47); }
+.bg-DN100A { background-color:rgba(13, 20, 36, 0.53); }
+.bg-DN90A { background-color:rgba(13, 20, 36, 0.63); }
+.bg-DN80A { background-color:rgba(13, 20, 36, 0.73); }
+.bg-DN70A { background-color:rgba(13, 20, 36, 0.78); }
+.bg-DN60A { background-color:rgba(13, 20, 36, 0.81); }
+.bg-DN50A { background-color:rgba(13, 20, 36, 0.85); }
+.bg-DN40A { background-color:rgba(13, 20, 36, 0.89); }
+.bg-DN30A { background-color:rgba(13, 20, 36, 0.92); }
+.bg-DN20A { background-color:rgba(13, 20, 36, 0.95); }
+.bg-DN10A { background-color:rgba(13, 20, 36, 0.97); }

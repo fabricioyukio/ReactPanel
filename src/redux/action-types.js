@@ -1,0 +1,10 @@
+/* SESSION ACTION TYPES */
+export const SET_SESSION_DATA = 'SET_SESSION_DATA';
+
+/* LOGIN ACTION TYPES */
+export const SET_LOGIN_DATA = 'SET_LOGIN_DATA';
+
+/* FLAG ACTION TYPES */
+export const ADD_FLAG = 'ADD_FLAG';
+export const DISMISS_FLAG = 'DISMISS_FLAG';
+export const RESET_FLAG = 'RESET_FLAG';

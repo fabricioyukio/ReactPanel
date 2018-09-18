@@ -1,0 +1,12 @@
+{
+  "access_token": {
+    "token": "be17d68cd6d816ab136289dde0c79fa0",
+    "user_avatar":"//0.gravatar.com/avatar/d5279c8b66d25549a0ec3c8dd46a3d1a?s=180"
+    "user_login": "educator",
+    "user_first_name": "Fulano",
+    "user_name": "Fulano da Silva",
+    "user_role": "PROFESSOR_1",
+    "created_at": "2018-06-25 15:34:30",
+    "updated_at": "2018-06-25 15:34:30"
+  }
+}
